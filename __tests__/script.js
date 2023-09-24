@@ -10,7 +10,7 @@ describe("take scrrenshot", () => {
 
     it("takes scrrenshot", async () => {
         await page.goto('http://localhost:5000');
-        const image = await page.screenshot({ path: 'README.md' });
+        const image = await page.screenshot({ path: 'screenshot.png' });
     })
 
     afterAll(async () => {
