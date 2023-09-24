@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm ci
-      - run: npm run dev
+      - run: npm start
       - run: npm test
 
